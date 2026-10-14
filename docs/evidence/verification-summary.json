@@ -90,7 +90,8 @@
     "pip_check": "passed",
     "cli": "passed",
     "docker_build": "passed",
-    "remote_ci": "not run; publication pending authorization"
+    "remote_ci": "not run; publication pending authorization",
+    "credential_pattern_scan": "passed; limited tracked-file token/private-key patterns"
   },
   "source_sha256": {
     "src/agent_evaluation/candidates.py": "87a61fcdd95290df7d53c47044987ee75219b90f8f87edd62c369e51a621a251",
@@ -103,14 +104,15 @@
     "tests/test_harness.py": "1841e6c493131bafbdb428209641c314f59bc57c941d1bb40b6bbb345a7af7b8",
     "scripts/demo.py": "de4f98146185d541832a2a5600285757e58881ccde6968b51b004e49519ec3e9",
     "pyproject.toml": "8494b0424a9453d81aaf49dcccdfdc5fca0e7090dae2e523716bc4042c52c5a7",
-    "requirements.lock": "a50cd87428375d7b83ca6c317f3d8ee17b64c69a9c7048d706c857300daa6da2",
+    "requirements.lock": "ae88211eba6801f1d9e24ae82d4e5b8b7222a76e19bc75d833b96de1f711fd80",
     "Dockerfile": "dde97d80ece8306aaafad9d16134698f11664fb7b8d24665d142d55bc25d9aae",
     ".github/workflows/ci.yml": "f7ada18646fd4409bc42c1f6fd41e0ab8078e611ce4152cd55863c40814ba641",
-    "benchmarks/baseline-v1.jsonl": "67726d0c8f308aa35c6c493404a26f7394e7081118999e081ed5cb2eefec50a0"
+    "benchmarks/baseline-v1.jsonl": "0981587b7ea7559184c9be77a216f04984d4cf6f0ba6fc9eafc42d6170cb84ab"
   },
   "limitations": [
     "Controlled mock fixtures, not production or live model performance",
     "Imported model usage is caller-supplied, not a provider billing attestation",
     "Wall-clock latency varies; logical scores and decisions are reproducible"
-  ]
+  ],
+  "source_hash_basis": "UTF-8 text with LF newlines, matching Git normalized files"
 }
