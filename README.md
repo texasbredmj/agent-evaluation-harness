@@ -99,8 +99,8 @@ you want to retain reports. Local tests require no Docker server.
 
 GitHub Actions is configured for Windows/Linux × Python 3.11/3.12/3.14, plus a clean Docker
 build and offline baseline run. Each matrix job tests resource budgets and regression rejection,
-runs the demo, and uploads JUnit, reports, and local traces for 14 days. Remote execution is
-reported only after publication and confirmation.
+runs the demo, and uploads JUnit, reports, and local traces for 14 days. [The implementation CI passed all seven jobs](https://github.com/texasbredmj/agent-evaluation-harness/actions/runs/38491693842).
+See the [portfolio evidence](https://github.com/texasbredmj/ai-engineering-portfolio) for current delivery results.
 
 ## Evidence and limits
 

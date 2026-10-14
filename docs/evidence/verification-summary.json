@@ -90,7 +90,7 @@
     "pip_check": "passed",
     "cli": "passed",
     "docker_build": "passed",
-    "remote_ci": "not run; publication pending authorization",
+    "remote_ci": "passed at the recorded implementation commit",
     "credential_pattern_scan": "passed; limited tracked-file token/private-key patterns"
   },
   "source_sha256": {
@@ -114,5 +114,49 @@
     "Imported model usage is caller-supplied, not a provider billing attestation",
     "Wall-clock latency varies; logical scores and decisions are reproducible"
   ],
-  "source_hash_basis": "UTF-8 text with LF newlines, matching Git normalized files"
+  "source_hash_basis": "UTF-8 text with LF newlines, matching Git normalized files",
+  "remote_ci": {
+    "id": 38491693842,
+    "url": "https://github.com/texasbredmj/agent-evaluation-harness/actions/runs/38491693842",
+    "head_sha": "5946703101fcb880e9e5764c5c57c8964cbf656f",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 115618133604,
+        "name": "container",
+        "conclusion": "success"
+      },
+      {
+        "id": 115618133965,
+        "name": "evaluation (windows-latest, 3.11)",
+        "conclusion": "success"
+      },
+      {
+        "id": 115618133969,
+        "name": "evaluation (ubuntu-latest, 3.12)",
+        "conclusion": "success"
+      },
+      {
+        "id": 115618133981,
+        "name": "evaluation (ubuntu-latest, 3.11)",
+        "conclusion": "success"
+      },
+      {
+        "id": 115618133987,
+        "name": "evaluation (windows-latest, 3.12)",
+        "conclusion": "success"
+      },
+      {
+        "id": 115618133997,
+        "name": "evaluation (ubuntu-latest, 3.14)",
+        "conclusion": "success"
+      },
+      {
+        "id": 115618134037,
+        "name": "evaluation (windows-latest, 3.14)",
+        "conclusion": "success"
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 # Executed verification — October 13, 2026
 
-Version 0.1.0 is locally verified. GitHub publication and remote CI are pending authorization.
+Version 0.1.0 is locally verified and published. All seven [remote CI jobs passed](https://github.com/texasbredmj/agent-evaluation-harness/actions/runs/38491693842) at implementation commit `5946703101fcb880e9e5764c5c57c8964cbf656f`.
 [Machine-readable evidence](evidence/verification-summary.json) records suite/source hashes,
 parsed JUnit counts, benchmark scores, and the deliberate regression results.
 
@@ -42,5 +42,7 @@ successfully. An initial JUnit copy from a stopped tmpfs-backed container found 
 evidence was captured within the running container and parsed successfully. Neither failed
 verification command is represented as a passing check.
 
-CI is configured but no remote outcome is claimed. Future publication should verify all seven
-jobs against the exact published commit and inspect uploaded artifacts before marking delivery complete.
+The recorded remote run covers Windows/Linux and Python 3.11/3.12/3.14 plus the offline container.
+Current publication evidence and downloaded artifact checks are maintained in the
+[portfolio index](https://github.com/texasbredmj/ai-engineering-portfolio). The run above is a snapshot
+for the implementation commit; later documentation-only commits receive their own CI checks.
