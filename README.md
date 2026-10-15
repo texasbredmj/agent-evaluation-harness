@@ -1,5 +1,14 @@
 # Agent Evaluation Harness
 
+## Start Here
+
+[Launch the complete employer demonstration on GitHub](https://github.com/texasbredmj/ai-engineering-portfolio#start-here).
+
+The public portfolio contains this project's runnable employer source, sample fixtures and verified demonstration, plus one Codespaces launch for all eight projects. No separate private-repository access is required. Run `python scripts/project_demo.py 4` from the portfolio Codespace to demonstrate this project.
+
+The instructions below describe this repository's standalone version. The integrated platform and its current verification evidence are maintained in the portfolio.
+
+
 Project 04 of AI Systems Engineering Lab evaluates whether an agent selects the right tool,
 uses correct arguments, respects authorization, recovers within a retry budget, and produces
 an independently verified outcome. A candidate's assertion is compared with mock backend receipts
